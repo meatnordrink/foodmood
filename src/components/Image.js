@@ -8,6 +8,7 @@ const useStyles = makeStyles({
   }
 })
 
+// these image sizes are optimized only for mobile...implement a solution to set height/width by screen size.
 export default function RenderImage(props) {
     let classes = useStyles();
     return (
@@ -16,8 +17,8 @@ export default function RenderImage(props) {
           >
             <CardMedia
               component="img"
-              // height="140"
-              // width="100"  
+              height="140"
+              width="100"  
               image={ props.imageAddress }
               title="image"
             />
