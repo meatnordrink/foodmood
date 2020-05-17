@@ -20,6 +20,7 @@ import './App.css';
 
 //_________________________________
 //        TO-DO:
+// * PUT IN HEIGHT AND WIDTH VALUES FOR IMAGES
 // * Go through errors in console, see if any are worth looking into.
 // * Put in a simple router, see how that goes. Look at whether state can be saved when hopping between screens. 
 // * Make a theme-change feature to put in the menu.

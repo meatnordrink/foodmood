@@ -16,8 +16,8 @@ export default function RenderImage(props) {
           >
             <CardMedia
               component="img"
-              height="140"
-              width="100"  
+              // height="140"
+              // width="100"  
               image={ props.imageAddress }
               title="image"
             />
